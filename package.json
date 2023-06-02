@@ -1,0 +1,13 @@
+{
+  "name": "work_distributor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start_script": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
