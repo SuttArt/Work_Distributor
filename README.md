@@ -35,7 +35,8 @@ together with writeStream from fs library from node.js)
 # How to use
 
 1. Do all manual work to get JSON file with an array of papers.
-2. Name this JSON file "Charlie Group.json" or change the name at the index.js and put them into "data" folder.
-3. use command: `node index.js` or if you have (probably) installed npm : `npm run start_script`
-4. Great, you can find your new JSON files at the "data" folder.
+2. Create "data" folder
+3. Name this JSON file "Charlie Group.json" or change the name at the index.js and put them into "data" folder.
+4. use command: `node index.js` or if you have (probably) installed npm : `npm run start_script`
+5. Great, you can find your new JSON files at the "data" folder.
 
