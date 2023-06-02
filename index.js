@@ -7,6 +7,8 @@ const second_array = []
 const third_array = []
 const fourth_array = []
 
+console.log("Length of main Array at the begin: " + main_array.length)
+
 // Shuffle the array so that each participant gets a random job. This will help achieve fairness in the distribution of the work.
 shuffle(main_array);
 
@@ -38,6 +40,13 @@ write_JSON_file("first_array", first_array);
 write_JSON_file("second_array", second_array);
 write_JSON_file("third_array", third_array);
 write_JSON_file("fourth_array", fourth_array);
+
+
+console.log("Length of main Array at the end: " + main_array.length)
+console.log("Length of first Array at the end: " + first_array.length)
+console.log("Length of second Array at the end: " + second_array.length)
+console.log("Length of third Array at the end: " + third_array.length)
+console.log("Length of fourth Array at the end: " + fourth_array.length)
 
 /**
  * Write the whole Array (with Array syntax) to the file
